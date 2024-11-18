@@ -1,0 +1,23 @@
+{
+  "name": "country-info-app",
+  "version": "1.0.0",
+  "description": "An Express application that provides an API for retrieving information about countries.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "nodemon": "^3.1.7",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "author": "",
+  "license": "MIT"
+}
